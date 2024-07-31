@@ -240,7 +240,7 @@ body {
     font-size: 16px; /* Ukuran font */
     margin: 4px 2px; /* Margin di sekitar tombol */
     cursor: pointer; /* Mengubah kursor menjadi pointer saat di-hover */
-    border-radius: 5px; /* Membuat sudut tombol menjadi bulat */
+    border-radius: 6px; /* Membuat sudut tombol menjadi bulat */
 }
 
 .submit:hover {

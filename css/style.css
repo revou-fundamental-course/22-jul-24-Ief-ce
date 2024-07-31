@@ -1,1 +1,295 @@
 /*INI BAGIAN DARI CSS*/
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-icon{
+    background-image: url(https://picsum.photos/200);
+    width: 50px;
+    height: 25px;
+    background-size: cover;
+   
+}
+
+.nav-container{
+    
+    display: flex;
+    
+}
+
+.nav-item{
+    
+    padding: 8px;
+   
+   
+}
+
+.main-title{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-banner-container{
+    height: 150px;
+    width: 100%;
+}
+
+.main-content-banner{
+    width: 100%;
+    height: 150px;
+    
+
+}
+
+.banner-1{
+    /* background-image: url(../asset/1.jpg); */
+    background-image: url(../asset/1.jpg);
+    
+    
+}
+
+.banner-2{
+    /* background-image: url(../asset/2.jpg); */
+    background-image: url(../asset/2.jpg);
+}
+
+.banner-3{
+    /* background-image: url(../asset/3.jpg); */
+    background-image: url(../asset/3.jpg);
+    
+}
+
+
+
+.item-icon{
+    /* height: 20px;
+    width: 20px;
+    background-image: url(https://picsum.photos/200);
+    border-radius: 50%; */
+    
+    height: 50px; /* Ubah ukuran sesuai kebutuhan */
+    width: 50px; /* Ubah ukuran sesuai kebutuhan */
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title, .item-description {
+    flex-direction: column;
+}
+
+.item-title {
+    font-size: 16px; /* Sesuaikan ukuran font */
+}
+
+.item-description {
+    font-size: 14px; /* Sesuaikan ukuran font */
+}
+
+.main-item{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+    
+}
+
+.main item h3 {
+    margin: 0;
+}
+
+.main item p {
+    margin: 5px 0 0 0;
+}
+
+input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+button{
+    width: 75%;
+    height: 32px;
+    background-color: aliceblue;
+    border: none;
+}
+
+@media only screen and (max-width : 600px) {
+    .ontop-menu{
+    flex-direction:  column;
+    }
+
+    .nav-container{
+        
+        flex-direction: column;
+        
+    }
+
+    .logo-icon{
+        margin-bottom: 14px;
+    }
+
+
+}
+
+/* .main-content-item{
+    
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.main-content-item {
+    background-color: #F6F5F2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px; /* Menambahkan margin untuk jarak dari tepi */
+    width: 100%;
+
+    /* ini main content awal */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content-item h4 {
+    margin: 0 0 10px;
+    text-align: left;
+}
+.main-content-item input,
+.main-content-item select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main-content-item button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main-content-item button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+    
+}
+
+.submit {
+    background-color: aliceblue; /* Warna latar belakang tombol */
+    color: black; /* Warna teks */
+    border: none; /* Menghilangkan border */
+    padding: 10px 20px; /* Padding untuk ukuran tombol */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    text-decoration: none; /* Menghilangkan garis bawah pada teks */
+    display: inline-block; /* Mengubah elemen menjadi inline-block */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin di sekitar tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat di-hover */
+    border-radius: 5px; /* Membuat sudut tombol menjadi bulat */
+}
+
+.submit:hover {
+    background-color: lightblue; /* Warna latar belakang saat tombol di-hover */
+    color: white; /* Warna teks saat tombol di-hover */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+.right-column {
+    flex: 1;
+    padding: 20px;
+}
+.features-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.features-section h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.feature-number {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #5c6ac4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.feature-text {
+    font-size: 1em;
+    color: #555;
+}
